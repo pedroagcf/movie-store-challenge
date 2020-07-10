@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="300" height="300" viewBox="0 0 300 300">
+  <defs>
+    <clipPath id="clip-Artboard_1">
+      <rect width="300" height="300"/>
+    </clipPath>
+  </defs>
+  <g id="Artboard_1" data-name="Artboard – 1" clip-path="url(#clip-Artboard_1)">
+    <rect width="300" height="300" fill="#e0e0e0"/>
+    <text id="No_images_" data-name="No images " transform="translate(150 177)" fill="#aaa" font-size="20" font-family="Lato-Light, Lato" font-weight="300"><tspan x="-46.48" y="0">No images </tspan></text>
+    <g id="Icon_material-photo-camera" data-name="Icon material-photo-camera" transform="translate(122 101.357)">
+      <path id="Path_13" data-name="Path 13" d="M29.429,21.314A8.114,8.114,0,1,1,21.314,13.2,8.114,8.114,0,0,1,29.429,21.314Z" transform="translate(7.043 7.043)" fill="#aaa"/>
+      <path id="Path_14" data-name="Path 14" d="M20.75,3,16.11,8.071H8.071A5.086,5.086,0,0,0,3,13.143V43.571a5.086,5.086,0,0,0,5.071,5.071H48.643a5.086,5.086,0,0,0,5.071-5.071V13.143a5.086,5.086,0,0,0-5.071-5.071H40.6L35.964,3Zm7.607,38.036A12.679,12.679,0,1,1,41.036,28.357,12.683,12.683,0,0,1,28.357,41.036Z" transform="translate(0 0)" fill="#aaa"/>
+    </g>
+    <line id="Line_1" data-name="Line 1" x1="52" y2="52" transform="translate(124.5 103.5)" fill="none" stroke="#e0e0e0" stroke-width="8"/>
+    <line id="Line_2" data-name="Line 2" x1="52" y2="52" transform="translate(123.5 104.5)" fill="none" stroke="#aaa" stroke-width="3"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+@import '../../../utils/scss/variables';
+
+.movie-details-card {
+  padding: 30px 50px;
+
+  p {
+    margin: 10px 0px;
+    color: $dark-gray;
+  }
+}
+
+.movie-details-card__title-info {
+  font-size: 24px;
+  margin: 20px 0px;
+  text-transform: uppercase;
+  color: $dark-gray;
+}
+
+.movie-details-card__banner {
+  height: 500px;
+}
+
+.movie-details-card__group-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.movie-details-card__group-info__summary {
+  text-align: end;
+}

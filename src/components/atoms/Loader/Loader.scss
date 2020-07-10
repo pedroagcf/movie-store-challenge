@@ -1,0 +1,33 @@
+@import '../../../utils/scss/variables';
+@import '../../../utils/scss/mixins';
+@import '../../../utils/scss/animations';
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  position: relative;
+  margin: 50px auto;
+}
+
+#loader-1:before,
+#loader-1:after {
+  content: '';
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 10px solid transparent;
+  border-top-color: $green;
+}
+
+#loader-1:before {
+  z-index: z('loader');
+  animation: spin 1s infinite;
+}
+
+#loader-1:after {
+  border: 10px solid #ccc;
+}
