@@ -1,0 +1,25 @@
+/* primary colors */
+$dark-gray: #5e6472;
+$dark-green: #028090;
+$green: #02c39a;
+$gray: #aaa;
+
+/*semantic colors*/
+$primary-color: $green;
+$header-background-color: $primary-color;
+$secondary-color: $dark-green;
+
+/*Sizes*/
+$header-height: 80px;
+$default-padding: 10px;
+$menu-width: 400px;
+$breakpoint-desktop: 1025px;
+$breakpoint-tablet: 768px;
+$breakpoint-phone-landscape: 481px;
+
+/* Z-indexes */
+$z-indexes: ('search-bar', 'header', 'loader');
+
+/*Animations*/
+$default-animation-duration: 0.3s;
+$search-animation-duration: 0.1s;
