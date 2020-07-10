@@ -32,9 +32,9 @@ function App() {
                 </Route>
               </Switch>
             </section>
-            <Footer />
           </main>
         </div>
+        <Footer />
       </Router>
     </Provider>
   );
