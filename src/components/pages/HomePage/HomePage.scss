@@ -13,3 +13,33 @@
   font-weight: bold;
   color: $gray;
 }
+
+.home-page__pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.home-page__pagination__step {
+  margin: 10px;
+  padding: 35px;
+  border-radius: 3px;
+  /* border-left: solid red; */
+  background-color: #028090;
+  &--add {
+    display: block;
+    width: 5px;
+    height: 5px;
+    border-bottom: solid 1px white;
+    border-right: solid 1px white;
+    transform: rotate(-45deg);
+  }
+
+  &--dec {
+    height: 5px;
+    width: 5px;
+    display: block;
+    border-bottom: solid 1px white;
+    border-left: solid 1px white;
+    transform: rotate(45deg);
+  }
+}

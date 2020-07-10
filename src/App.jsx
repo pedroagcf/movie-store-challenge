@@ -10,6 +10,7 @@ import Header from './components/organisms/Header/Header';
 import HomePage from './components/pages/HomePage/HomePage';
 import MovieDetailPage from './components/pages/MovieDetailPage/MovieDetailPage';
 import Footer from './components/organisms/Footer/Footer';
+import SearchResultsPage from './components/pages/SearchResultsPage/SearchResultsPage';
 
 function App() {
   return (
@@ -23,7 +24,9 @@ function App() {
                 <Route path='/movies/:movieId'>
                   <MovieDetailPage />
                 </Route>
-                <Route path='/movies'>{/* <SearchResultsPage /> */}</Route>
+                <Route path='/movies'>
+                  <SearchResultsPage />
+                </Route>
                 <Route path='/'>
                   <HomePage />
                 </Route>

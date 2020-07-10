@@ -5,7 +5,7 @@ import './MovieList.scss';
 const MovieList = ({ movies }) => {
   return (
     <div className='movie-list__container'>
-      {movies.map((movie) => (
+      {movies?.map((movie) => (
         <MovieCard movie={movie} key={movie.id} />
       ))}
     </div>

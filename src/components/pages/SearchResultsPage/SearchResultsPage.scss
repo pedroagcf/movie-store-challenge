@@ -1,0 +1,11 @@
+@import '../../../utils/scss/variables';
+
+.search-results-page__text {
+  color: $gray;
+  font-size: 16px;
+  &--error {
+    color: $red-alert;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}

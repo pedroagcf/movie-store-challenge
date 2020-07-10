@@ -21,10 +21,23 @@ export const fetchMoviesError = (error) => {
   };
 };
 
-const fetchMovies = () => {
+export const incrementPage = () => {
+  return {
+    type: actionTypes.INCREMENT_PAGE,
+  };
+};
+
+export const decrementPage = () => {
+  return {
+    type: actionTypes.DECREMENT_PAGE,
+  };
+};
+
+const fetchMovies = (page) => {
+  console.log('fetch movies ' + page);
   return (dispatch) => {
     dispatch(fetchMoviesRequest());
-    Axios.get(endpoints.MOVIES)
+    Axios.get(`${endpoints.MOVIES}&page=${page}`)
       .then((res) => {
         dispatch(fetchMoviesSuccess(res.data));
         console.log(res.data);

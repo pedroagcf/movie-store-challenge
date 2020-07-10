@@ -2,15 +2,17 @@ import { actionTypes } from '../utils/js/constants';
 
 const initialState = {
   data: null,
+  page: 1,
   loading: false,
   error: null,
 };
 
 const moviesReducer = (state = initialState, action) => {
+  let { page } = state;
+  console.log('reducer page' + page);
+
   switch (action.type) {
     case actionTypes.FETCH_MOVIES_REQUEST:
-      console.log('REDUCER');
-
       return { ...state, loading: true, error: null };
 
     case actionTypes.FETCH_MOVIES_SUCCESS:
@@ -28,9 +30,21 @@ const moviesReducer = (state = initialState, action) => {
         error: action.payload,
       };
 
+    case actionTypes.INCREMENT_PAGE:
+      console.log('here');
+
+      return {
+        ...state,
+        page: page + 1,
+      };
+    case actionTypes.DECREMENT_PAGE:
+      return {
+        ...state,
+        page: page === 1 ? 1 : page - 1,
+      };
+
     default:
       return state;
   }
 };
-
 export default moviesReducer;
