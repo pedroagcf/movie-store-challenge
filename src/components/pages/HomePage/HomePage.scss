@@ -21,25 +21,26 @@
 
 .home-page__pagination__step {
   margin: 10px;
-  padding: 35px;
+  padding: 20px;
   border-radius: 3px;
-  /* border-left: solid red; */
+  border: none;
+  outline: none;
   background-color: #028090;
   &--add {
     display: block;
-    width: 5px;
-    height: 5px;
-    border-bottom: solid 1px white;
-    border-right: solid 1px white;
+    width: 10px;
+    height: 10px;
+    border-bottom: solid 2px white;
+    border-right: solid 2px white;
     transform: rotate(-45deg);
   }
 
   &--dec {
-    height: 5px;
-    width: 5px;
+    height: 10px;
+    width: 10px;
     display: block;
-    border-bottom: solid 1px white;
-    border-left: solid 1px white;
+    border-bottom: solid 2px white;
+    border-left: solid 2px white;
     transform: rotate(45deg);
   }
 }
